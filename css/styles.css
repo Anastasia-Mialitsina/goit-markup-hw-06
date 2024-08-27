@@ -17,17 +17,14 @@ body {
 .logo-span {
   color: #2e2f42;
 }
-.studio {
+.studio,
+.hover-link:hover,
+.focus-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.hover-link:hover {
-  color: #404bbf;
-}
-.focus-link:focus {
   color: #404bbf;
 }
 .portfolio {
@@ -48,17 +45,23 @@ body {
   font-style: normal;
 }
 
-.my-address-mailto {
+.my-address-mailto,
+.focus-link,
+.hover-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  color: #404bbf;
 }
-.my-address-tel {
+.my-address-tel,
+.focus-link,
+.hover-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  color: #404bbf;
 }
 .my-section {
   background-color: #2e2f42;
@@ -70,7 +73,9 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.button-order {
+.button-order,
+.focus-link,
+.hover-link {
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -145,6 +150,7 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
+
 .my-section-three-container-one {
   background: #ffffff;
 }
