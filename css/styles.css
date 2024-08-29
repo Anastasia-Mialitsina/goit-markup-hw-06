@@ -15,58 +15,33 @@ body {
 .logo-span {
   color: #2e2f42;
 }
-.studio,
-.hover-link:hover,
-.focus-link:focus {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.portfolio,
-.hover-link:hover,
-.focus-link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  color: #404bbf;
-}
-.contacts,
-.hover-link:hover,
-.focus-link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  color: #404bbf;
-}
+
 .my-address {
   font-style: normal;
 }
 
-.my-address-mailto,
-.focus-link,
-.hover-link {
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
-.my-address-tel,
-.focus-link,
-.hover-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  color: #404bbf;
-}
+
 .my-section {
   background-color: #2e2f42;
 }
@@ -77,9 +52,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.button-order,
-.focus-link,
-.hover-link {
+.button-order {
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -88,61 +61,26 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
   color: #404bbf;
 }
 
-.section-two-strategy {
+.section-two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-two-strg-ph {
+.section-two-ph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-two-punctuality {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section-two-pnctl-ph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.section-two-diligence {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section-two-dlgnc-ph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.section-two-technologies {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section-two-tchnlgs-ph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .my-section-three {
   background-color: #f4f4fd;
 }
@@ -154,65 +92,17 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.my-section-three-container-one {
+.my-section-three-list {
   background: #ffffff;
 }
-.my-section-three-mg {
+.my-section-three-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.my-section-three-mg-pd {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.my-section-three-container-two {
-  background: #fff;
-}
-.my-section-three-tf {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-tf-fd {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.my-section-three-container-three {
-  background: #fff;
-}
-.my-section-three-cg {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-cg-m {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.my-section-three-container-four {
-  background: #fff;
-}
-.my-section-three-dw {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-dw-uid {
+.my-section-three-ph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -228,83 +118,14 @@ body {
   color: #2e2f42;
 }
 
-.my-section-four-ba {
+.my-section-four {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.my-section-three-ba-app {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.my-section-four-cp {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-cp-marketing {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.my-section-four-ma {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-ma-app {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.my-section-four-ts {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-ts-marketing {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.my-section-four-si {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-si-designer {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.my-section-four-oc {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.my-section-three-oc-marketing {
+.my-section-four-ph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
