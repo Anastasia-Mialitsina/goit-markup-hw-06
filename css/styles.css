@@ -148,11 +148,18 @@ a {
        background-color: #404bbf;
      }
      .my-section-one {
-      padding: 120px;
+      padding: 120px 0;
     }
     .visually-hidden {
       clip: rect(0, 0, 0, 0);
       position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
     }
     .container-section-two {
       display: flex;
@@ -168,7 +175,7 @@ a {
       letter-spacing: 0.02em;
       color: #2e2f42;
       padding-left: 24px;
-      padding-bottom: 8px;
+      margin-bottom: 8px;
     }
     .section-two-ph {
       font-size: 16px;
@@ -223,6 +230,8 @@ a {
   /* Section 4 */
   .my-section-four {
     padding-top: 120px;
+    padding-bottom: 120px;
+   
   }
   .container-section-four {
     display: flex;
