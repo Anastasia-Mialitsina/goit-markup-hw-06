@@ -128,6 +128,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
    }
   .button-order {
     font-family: "Roboto", sans-serif;
@@ -207,7 +208,7 @@ a {
   text-transform: capitalize;
   padding: 0;
   margin-bottom: 72px;
-  
+  margin-top: 0;
 }
 .container-section-three {
   display: flex;
