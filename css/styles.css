@@ -185,15 +185,14 @@ a {
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: #2e2f42;
-      
+      margin-bottom: 8px;
     }
     .section-two-ph {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
-      margin-top: 8px;
-      margin-bottom: 0;
+      margin: 0;
       padding: 0;
       
       }
@@ -210,13 +209,13 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
   padding: 0;
-  margin: 0;
+  margin-bottom: 72px;
   
 }
 .container-section-three {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
+  
 
 }
 .my-section-three-list {
@@ -234,6 +233,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
   }
   .my-section-three-ph {
     font-size: 16px;
@@ -241,8 +241,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin-top: 8px;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     }
   /* Section 4 */
@@ -250,12 +249,23 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
    }
+   .my-main-two-heading-four {
+    font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 72px;
+   }
    .container-section-four {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-top: 72px;
+    
   }
   .container-section-four-li {
     width: calc((100% - 48px) / 3);
@@ -295,6 +305,7 @@ a {
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
+        margin-bottom: 16px;
         }
       .logo-span-footer {
         color: #f4f4fd;
@@ -304,8 +315,7 @@ a {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-margin-top: 16px;
-margin-bottom: 0;
+        margin: 0;
 padding: 0;
       }
 
