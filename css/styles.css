@@ -31,8 +31,12 @@ h1
 h2,
 h3,
 h4,
+h4,
+h5,
+h6
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -53,12 +57,10 @@ a {
 }
 .header-flex {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
-  padding-bottom: 24px;
   padding-top: 24px;
-  margin-bottom: 96px;
-  
-}
+  padding-bottom: 120px;
+  border-bottom: 1px solid #e7e9fc;
+  }
 .header-flex-div {
   display: flex;
 }
@@ -66,8 +68,7 @@ a {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
-}
+  }
 .header-flex-nav {
   display: flex;
   align-items: center;
@@ -118,8 +119,7 @@ a {
 }
 .my-section {
   background-color: #2e2f42;
-  display: flex;
-  padding: 188px 0;
+ padding: 188px 0;
   }
 .my-main-heading {
   font-size: 56px;
@@ -140,7 +140,6 @@ a {
      letter-spacing: 0.04em;
      color: #ffffff;
      cursor: pointer;
-     display: block;
      min-width: 169px;
      height: 56px;
      border: none;
@@ -149,6 +148,7 @@ a {
      display: block;
      margin-left: auto;
      margin-right: auto;
+     padding: 0;
      }
      .button-order:hover,
      .button-order:focus {
@@ -158,8 +158,6 @@ a {
      .my-section-one {
       padding: 120px 0;
       display: flex;
-    
-    
     }
     .visually-hidden {
       white-space: nowrap;
@@ -179,6 +177,7 @@ a {
     }
     .container-section-two-li {
       width: calc((100% - 72px) / 4);
+      
     }
     .section-two {
       font-weight: 500;
@@ -186,13 +185,17 @@ a {
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: #2e2f42;
-      margin-bottom: 8px;
+      
     }
     .section-two-ph {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
+      margin-top: 8px;
+      margin-bottom: 0;
+      padding: 0;
+      
       }
     /* Section 3 */
 .my-section-three {
@@ -206,12 +209,15 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  padding: 0;
+  margin: 0;
+  
 }
 .container-section-three {
   display: flex;
   gap: 24px;
   padding-top: 72px;
+
 }
 .my-section-three-list {
   background: #ffffff;
@@ -228,7 +234,6 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
   }
   .my-section-three-ph {
     font-size: 16px;
@@ -236,14 +241,16 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 0;
     }
   /* Section 4 */
   .my-section-four {
     padding-top: 120px;
     padding-bottom: 120px;
-   
-  }
-  .container-section-four {
+   }
+   .container-section-four {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -265,18 +272,20 @@ a {
       letter-spacing: 0.02em;
       color: #2e2f42;
       margin-bottom: 8px;
-    }
+      padding: 0;
+      }
     .my-section-four-ph {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
+      padding: 0;
+      margin: 0;
       }
       .my-footer {
         background: #2e2f42;
         padding: 100px 0;
-        
-       }
+        }
       .footer-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -286,8 +295,7 @@ a {
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        margin-bottom: 16px;
-      }
+        }
       .logo-span-footer {
         color: #f4f4fd;
       }
@@ -296,6 +304,9 @@ a {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+margin-top: 16px;
+margin-bottom: 0;
+padding: 0;
       }
 
 
