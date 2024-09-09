@@ -25,7 +25,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  
 }
 h1
 h2,
@@ -38,11 +37,10 @@ p {
   margin: 0;
   padding: 0;
 }
-
-ul {
+ul, ol {
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 li {
   margin: 0;
@@ -50,18 +48,17 @@ li {
 }
 img {
   display: block;
-  
-}
+  }
 a {
   text-decoration: none;
 }
-.header-flex {
+.page-header {
   display: flex;
   padding-top: 24px;
-  padding-bottom: 120px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   }
-.header-flex-div {
+.page-header-div {
   display: flex;
 }
 .container {
@@ -69,13 +66,13 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   }
-.header-flex-nav {
+.page-header-nav {
   display: flex;
   align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
