@@ -52,6 +52,7 @@ img {
 a {
   text-decoration: none;
 }
+
 .page-header {
   display: flex;
   padding-top: 24px;
@@ -87,6 +88,7 @@ a {
   display: flex;
   gap: 40px;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -95,10 +97,27 @@ a {
   color: #2e2f42;
   padding: 24px 0;
 }
+.nav-link::after {
+  position: absolute;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  transform: scaleX(0);
+  background-color: #4d5ae5;
+  transform-origin: left;
+  transition-property: transform;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-}
+  }
 .my-address {
   font-style: normal;
   margin-left: auto;
@@ -108,8 +127,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
-}
+  }
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -117,7 +135,13 @@ a {
 .my-section {
   background-color: #2e2f42;
  padding: 188px 0;
-  }
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100vh;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/peopleoffice.jpg");
+
+}
 .my-main-heading {
   font-size: 56px;
   max-width: 496px;
@@ -169,6 +193,13 @@ a {
       clip: rect(0 0 0 0);
       border: 0;
     }
+    .icon-container {
+      display: inline-block;
+      background-color: #F4F4FD;
+     padding: 24px 100px 24px 100px;
+     border-radius: 4%;
+     border: 1px solid #8E8F99;
+     }
     .container-section-two {
       display: flex;
       gap: 24px;
@@ -184,6 +215,7 @@ a {
       letter-spacing: 0.02em;
       color: #2e2f42;
       margin-bottom: 8px;
+      margin-top: 8px;
     }
     .section-two-ph {
       font-size: 16px;
@@ -242,6 +274,16 @@ a {
     margin: 0;
     padding: 0;
     }
+
+    .icon-container-div {
+      display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+padding: 8px 0 0 0;
+    }
+
   /* Section 4 */
   .my-section-four {
     padding-top: 120px;
@@ -265,6 +307,34 @@ a {
     row-gap: 48px;
     
   }
+  .card {
+   overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .img-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+.img-overlay {
+  position: absolute;
+  bottom: -100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+     background-color: #4d5ae5;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: bottom 0.3s ease;
+}
+.img-container:hover .img-overlay {
+  bottom: 0;
+}
   .container-section-four-li {
     width: calc((100% - 48px) / 3);
     }
@@ -290,10 +360,31 @@ a {
       padding: 0;
       margin: 0;
       }
+      
+      .icon-container-two {
+        display: inline-block;
+      background-color: #4d5ae5;
+     padding: 12px;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     
+      }
       .my-footer {
         background: #2e2f42;
         padding: 100px 0;
         }
+        .container-flex-footerr {
+          display: flex;
+          
+          align-items: flex-start;
+          background-color: 0;
+          }
+        
+          .container-footer-one {
+            width: 264px;
+            height: auto;
+          }
       .footer-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -314,7 +405,39 @@ a {
         color: #f4f4fd;
         max-width: 264px;
         margin: 0;
+        padding: 0;
+      }
+.icon-container-two-footer {
+        display: inline-block;
+      background-color: #4d5ae5;
+     border-radius: 50%;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+      }
+.my-main-heading-footer{
+        font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+font-family: "Roboto", sans-serif;
+margin-bottom: 16px;
+}
+.icon-container-div-footer {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 16px;
 padding: 0;
+}
+.container-footer-two {
+        display: block;
+        margin-left: 120px;
+       
+        width: 208px;
+height: 80px;
       }
 
 
