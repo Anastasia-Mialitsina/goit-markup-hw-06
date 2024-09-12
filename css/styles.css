@@ -52,7 +52,6 @@ img {
 a {
   text-decoration: none;
 }
-
 .page-header {
   display: flex;
   padding-top: 24px;
@@ -87,8 +86,7 @@ a {
 .menu {
   display: flex;
   gap: 40px;
-}
-
+  }
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -98,26 +96,20 @@ a {
   padding: 24px 0;
 }
 .nav-link::after {
+  content: '';
   position: absolute;
-  transition-property: color;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
-  bottom: -5px;
-  transform: scaleX(0);
-  background-color: #4d5ae5;
-  transform-origin: left;
-  transition-property: transform;
-  position: relative;
-  text-decoration: none;
-  color: #000;
-}
+  background-color: transparent;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s ease, background-color 0.3s ease;
+  }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-  }
+  text-decoration: underline;
+}
 .my-address {
   font-style: normal;
   margin-left: auto;
@@ -138,9 +130,7 @@ a {
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
- height: 100vh;
  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/peopleoffice.jpg");
-
 }
 .my-main-heading {
   font-size: 56px;
@@ -206,8 +196,7 @@ a {
     }
     .container-section-two-li {
       width: calc((100% - 72px) / 4);
-      
-    }
+      }
     .section-two {
       font-weight: 500;
       font-size: 20px;
@@ -224,7 +213,6 @@ a {
       color: #434455;
       margin: 0;
       padding: 0;
-      
       }
     /* Section 3 */
 .my-section-three {
@@ -245,9 +233,7 @@ a {
 .container-section-three {
   display: flex;
   gap: 24px;
-  
-
-}
+  }
 .my-section-three-list {
   background: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -274,8 +260,7 @@ a {
     margin: 0;
     padding: 0;
     }
-
-    .icon-container-div {
+.icon-container-div {
       display: flex;
 align-items: center;
 justify-content: center;
@@ -283,8 +268,7 @@ flex-direction: row;
 gap: 24px;
 padding: 8px 0 0 0;
     }
-
-  /* Section 4 */
+/* Section 4 */
   .my-section-four {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -305,8 +289,7 @@ padding: 8px 0 0 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-  }
+    }
   .card {
    overflow: hidden;
     text-align: center;
@@ -360,7 +343,6 @@ padding: 8px 0 0 0;
       padding: 0;
       margin: 0;
       }
-      
       .icon-container-two {
         display: inline-block;
       background-color: #4d5ae5;
@@ -368,20 +350,18 @@ padding: 8px 0 0 0;
      border-radius: 50%;
      width: 40px;
      height: 40px;
-     
-      }
+     cursor: pointer;
+     }
       .my-footer {
         background: #2e2f42;
         padding: 100px 0;
         }
         .container-flex-footerr {
           display: flex;
-          
           align-items: flex-start;
           background-color: 0;
           }
-        
-          .container-footer-one {
+         .container-footer-one {
             width: 264px;
             height: auto;
           }
@@ -414,6 +394,7 @@ padding: 8px 0 0 0;
         padding: 8px;
         width: 40px;
         height: 40px;
+        cursor: pointer;
       }
 .my-main-heading-footer{
         font-weight: 500;
@@ -441,6 +422,15 @@ height: 80px;
       }
 
 
+
+
+
+      
+      
+      
+      
+      
+      
 
 
 
