@@ -54,7 +54,6 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 .page-header-div {
@@ -171,6 +170,7 @@ max-width: 1440px;
        color: #404bbf;
        background-color: #404bbf;
      }
+     /* Секція2 */
      .my-section-one {
       padding: 120px 0;
       display: flex;
@@ -276,9 +276,7 @@ max-width: 1440px;
       display: flex;
       justify-content: center;
       gap: 24px;
-align-items: center;
-flex-direction: row;
-padding: 8px 0 0 0;
+      margin: 8px 0 0 0;
     }
     .icon-container-two {
       display: inline-block;
@@ -326,34 +324,31 @@ padding: 8px 0 0 0;
     column-gap: 24px;
     row-gap: 48px;
     }
-  .card {
-   overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-  }
-  .card:hover {
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-  }
+  
   .img-container {
     position: relative;
     width: 100%;
     height: 300px;
     cursor: pointer;
-}
-.img-overlay {
-  position: absolute;
-  bottom: -100%;
-      left: 0;
-      width: 100%;
-      height: 100%;
-     background-color: #4d5ae5;
-     color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     transition: bottom 0.3s ease;
-}
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+overflow: hidden;
+  }
+  .img-container:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  .img-overlay {
+    position: absolute;
+    bottom: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       background-color: #4d5ae5;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: bottom 0.3s ease;
+  }
 .img-container:hover .img-overlay {
   bottom: 0;
 }
@@ -368,16 +363,11 @@ padding: 8px 0 0 0;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .container-section-four-li {
+  width: calc((100% - 48px) / 3);
 }
-  .container-section-four-li {
-    width: calc((100% - 48px) / 3);
-    }
-    .container-section-four-li:hover {
-      transform: translateY(0%);
-    }
-    .container-div-section-four {
+.container-div-section-four {
       padding: 32px 16px;
       border: 1px solid #e7e9fc;
       border-top: none;
@@ -399,6 +389,7 @@ padding: 8px 0 0 0;
       padding: 0;
       margin: 0;
       }
+      /* Footer */
       .my-footer {
         background: #2e2f42;
         padding: 100px 0;
