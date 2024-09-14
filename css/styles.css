@@ -297,7 +297,8 @@ a {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-container-div-a:hover:focus {
+.icon-container-div-a:hover
+.icon-container-div-a:focus {
   background-color: #404bbf;
 }
 .svg-section-three {
@@ -470,7 +471,8 @@ a {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-container-div-a-footer:hover:focus {
+.icon-container-div-a-footer:hover
+.icon-container-div-a-footer:focus {
   background-color: #31d0aa;
 }
 .svg-class-footer {
