@@ -314,6 +314,9 @@ position: relative;
 .icon-container-div-a:focus {
   background-color: #404bbf;
 }
+.icon-container-div-a:active {
+  background-color: #404bbf;
+}
 .svg-section-three {
   fill: #f4f4fd;
 }
@@ -482,6 +485,9 @@ transform: translateY(0%);
   background-color: #31d0aa;
 }
 .icon-container-div-a-footer:focus {
+  background-color: #31d0aa;
+}
+.icon-container-div-a-footer:active {
   background-color: #31d0aa;
 }
 .svg-class-footer {
