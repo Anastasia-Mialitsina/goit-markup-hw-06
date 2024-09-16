@@ -179,7 +179,7 @@ position: relative;
 }
 .button-order:hover,
 .button-order:focus {
-  color: #404bbf;
+  color: #ffffff;
   background-color: #404bbf;
 }
 /* Секція2 */
@@ -299,19 +299,18 @@ position: relative;
   height: 40px;
   cursor: pointer;
 }
+.icon-container-two:hover,
+.icon-container-two:focus {
+  background-color: #404bbf;
+}
 .icon-container-div-a {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-container-div-a:hover
-.icon-container-div-a:focus {
-  background-color: #404bbf;
 }
 .svg-section-three {
   fill: #f4f4fd;
@@ -466,20 +465,20 @@ transform: translateY(0%);
   height: 40px;
   cursor: pointer;
 }
+.icon-container-two-footer:hover,
+.icon-container-two-footer:focus {
+  background-color: #31d0aa;
+}
 .icon-container-div-a-footer {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-container-div-a-footer:hover
-.icon-container-div-a-footer:focus {
-  background-color: #31d0aa;
-}
+
 .svg-class-footer {
   fill: #F4F4FD;
 }
