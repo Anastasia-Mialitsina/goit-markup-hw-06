@@ -137,13 +137,14 @@ position: relative;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+/*  Секція 1 */
 .my-section {
   background-color: #2e2f42;
   padding: 188px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/peopleoffice.jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoffice.jpg");
   max-width: 1440px;
 }
 .my-main-heading {
@@ -291,23 +292,15 @@ position: relative;
   margin: 8px 0 0 0;
 }
 .icon-container-two {
-  display: inline-block;
-  background-color: #4d5ae5;
-  padding: 12px;
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  cursor: pointer;
 }
-.icon-container-two:hover,
-.icon-container-two:focus {
-  background-color: #404bbf;
-}
+
 .icon-container-div-a {
+  padding: 12px;
+  cursor: pointer;
   width: 100%;
   height: 100%;
-}
-.icon-container-div-a {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -363,8 +356,8 @@ position: relative;
   transition: bottom 0.3s ease;
   bottom: -100%;
   left: 0;
-  position: absolute;
   top: 0;
+  position: absolute;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -375,9 +368,10 @@ position: relative;
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+  margin-top: 0;
 }
 .container-section-four-li {
+  cursor: pointer;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -469,23 +463,14 @@ transform: translateY(0%);
   padding: 0;
 }
 .icon-container-two-footer {
-  display: inline-block;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  padding: 8px;
   width: 40px;
   height: 40px;
-  cursor: pointer;
-}
-.icon-container-two-footer:hover,
-.icon-container-two-footer:focus {
-  background-color: #31d0aa;
-}
+ }
 .icon-container-div-a-footer {
   width: 100%;
   height: 100%;
-}
-.icon-container-div-a-footer {
+  padding: 8px;
+  cursor: pointer;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
