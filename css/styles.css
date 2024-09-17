@@ -146,6 +146,9 @@ position: relative;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoffice.jpg");
   max-width: 1440px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .my-main-heading {
   font-size: 56px;
@@ -351,7 +354,7 @@ position: relative;
 .ph-overlay {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   transition: bottom 0.3s ease;
   bottom: -100%;
   left: 0;
