@@ -494,6 +494,13 @@ transform: translateY(0%);
   width: 453px;
   height: 80px;
 }
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
+.label-footer {
+
+}
 .input-footer {
   background: transparent;
   border: 1px solid #fff;
@@ -505,18 +512,22 @@ transform: translateY(0%);
   line-height: 200%;
   letter-spacing: 0.04em;
   color: #fff;
-  margin-right: 20px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
 }
 .input-footer:hover {
   cursor: pointer;
   border-color: #31D0AA; 
 }
 .footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
   fill: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   font-family: "Roboto", sans-serif;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -526,6 +537,9 @@ transform: translateY(0%);
   background-color: #4d5ae5;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+.svg-footer {
+  margin-left: 16px;
 }
 
 .footer-btn:hover {
@@ -611,6 +625,7 @@ transform: translateY(0%);
   letter-spacing: 0.02em;
   text-align: center;
   color: #2E2F42;
+  margin: 0;
 }
 .imput {
   display: block;
@@ -627,7 +642,7 @@ transform: translateY(0%);
   letter-spacing: 0.04em;
   color: #8E8F99;
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 0;
   display: block;
 }
 .form-div-input {
@@ -701,12 +716,12 @@ transform: translateY(0%);
   border-color: #4D5AE5;
 }
 .form-div-checkbox {   
-  margin-bottom: 24px;  
+  margin-bottom: 24px; 
 }  
 .input-checkbox {
   visibility: hidden;
 }
-.span-footer {
+.span-checkbox {
   width: 16px;
   height: 16px; 
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -717,8 +732,13 @@ transform: translateY(0%);
   justify-content: center;
   fill: transparent;
 }
-.svg-footer-check {
-  
+.checkbox-a {
+  color: #4d5ae5;
+}
+.input-checkbox:checked + .span-checkbox {
+  background-color: #404BBF;
+  border: none;
+  fill: #f4f4fd;
 }
 .imput-txt {
   border-radius: 4px;
@@ -741,7 +761,7 @@ transform: translateY(0%);
 .form-btn {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4D5AE5;
@@ -753,12 +773,15 @@ transform: translateY(0%);
   margin-top: 24px;
   margin-bottom: 24px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
 .form-btn:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404BBF;
 }
-
 .input-checkbox:active {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404BBF;
