@@ -404,7 +404,7 @@ img {
 .my-section {
   padding: 112px 136px;
   max-width: 768px;
-  height: 436px;
+  height: auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/herotablet@1x.jpg"), url("../images/herotablet@2x.jpg");
 }  
 .my-main-heading {
@@ -779,7 +779,7 @@ img {
 }
 .container-footer-one {
   height: auto;
-  align-items: center;
+  text-align: center;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -791,7 +791,6 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  
 }
 .logo-span-footer {
   color: #f4f4fd;
@@ -806,6 +805,7 @@ img {
 }
 .container-footer-two {
   display: block;
+  text-align: center;
 }
 .my-ph-footer{
   font-weight: 500;
@@ -850,6 +850,7 @@ img {
 }
 .container-footer-three {
   display: block;
+  text-align: center;
 }
 .form-footer {
   display: flex;
@@ -912,11 +913,17 @@ img {
 }
 @media screen and (min-width: 768px) {
 .container-f {
-  justify-content: left;
   gap: 24px;
+}
+.container-footer-one  {
+  text-align: left;
+}
+.container-footer-two {
+  text-align: left;
 }
 .container-footer-three {
   width: 453px;
+  text-align: left;
 }
 .input-footer {
   width: 264px;
